@@ -117,103 +117,103 @@ class __TwigTemplate_6bd5f29dcb265d88f56459cc2547482bd2a6cd443cb9e634fb9fd32e6a4
             echo "        </div>
       </section>
 
-      <section id=\"features\" class=\"front-section features\">
-        <div class=\"contain\">
-          ";
-            // line 55
+      ";
+            // line 53
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_two", array())) {
+                // line 54
+                echo "      <section id=\"features\" class=\"front-section features\">
+        <div class=\"contain\">
+            ";
                 // line 56
-                echo "            ";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_two", array()), "html", null, true));
                 echo "
-          ";
-            }
-            // line 58
-            echo "        </div>
+        </div>
       </section>
-
-      <section class=\"front-section icons\">
-        <div class=\"contain\">
-          ";
-            // line 63
+      ";
+            }
+            // line 60
+            echo "
+      ";
+            // line 61
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_three", array())) {
-                // line 64
-                echo "            ";
+                // line 62
+                echo "      <section class=\"front-section posts\">
+            ";
+                // line 63
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_three", array()), "html", null, true));
                 echo "
-          ";
+      </section>
+      ";
             }
             // line 66
-            echo "        </div>
-      </section>
-
-      <section class=\"front-section posts\">
-        ";
-            // line 70
-            if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_four", array())) {
-                // line 71
-                echo "          ";
-                echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_four", array()), "html", null, true));
-                echo "
-        ";
-            }
-            // line 73
-            echo "      </section>
-
-      <section class=\"front-section news\">
-        <div class=\"contain\">
-          ";
-            // line 77
-            if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_five", array())) {
-                // line 78
-                echo "            ";
-                echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_five", array()), "html", null, true));
-                echo "
-          ";
-            }
-            // line 80
-            echo "        </div>
-      </section>
-
+            echo "
       <section class=\"front-section featured\">
         <div class=\"featured-box\">
           ";
-            // line 85
+            // line 69
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_six", array())) {
-                // line 86
+                // line 70
                 echo "            ";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_six", array()), "html", null, true));
                 echo "
           ";
             }
-            // line 88
+            // line 72
             echo "        </div>
         <div class=\"featured-box\">
           ";
-            // line 90
+            // line 74
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_seven", array())) {
-                // line 91
+                // line 75
                 echo "            ";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_seven", array()), "html", null, true));
                 echo "
           ";
             }
-            // line 93
+            // line 77
             echo "        </div>
       </section>
+
+      <section class=\"front-section news\">
+        <div class=\"contain\">
+          ";
+            // line 82
+            if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_four", array())) {
+                // line 83
+                echo "            ";
+                echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_four", array()), "html", null, true));
+                echo "
+          ";
+            }
+            // line 85
+            echo "        </div>
+      </section>
+
+      <section class=\"front-section posts\">
+        ";
+            // line 89
+            if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_five", array())) {
+                // line 90
+                echo "          ";
+                echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_five", array()), "html", null, true));
+                echo "
+        ";
+            }
+            // line 92
+            echo "      </section>
 
       <section class=\"front-section source\">
         <div class=\"contain\">
           ";
-            // line 98
+            // line 96
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_eight", array())) {
-                // line 99
+                // line 97
                 echo "            ";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "front_eight", array()), "html", null, true));
                 echo "
           ";
             }
-            // line 101
+            // line 99
             echo "        </div>
       </section>
 
@@ -221,118 +221,118 @@ class __TwigTemplate_6bd5f29dcb265d88f56459cc2547482bd2a6cd443cb9e634fb9fd32e6a4
 
     ";
         } else {
-            // line 107
+            // line 105
             echo "
     <!-- Main Content -->
     <div class=\"content contain\">
       <div class=\"page-content\">
         <div class=\"visually-hidden\"><a id=\"main-content\" tabindex=\"-1\"></a></div>
         ";
-            // line 112
+            // line 110
             echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["messages"]) ? $context["messages"] : null), "html", null, true));
             echo "
         ";
-            // line 113
+            // line 111
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "help", array())) {
-                // line 114
+                // line 112
                 echo "          <div class=\"help\">
             ";
-                // line 115
+                // line 113
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "help", array()), "html", null, true));
                 echo "
           </div>
         ";
             }
-            // line 118
+            // line 116
             echo "        ";
             if ((isset($context["action_links"]) ? $context["action_links"] : null)) {
-                // line 119
+                // line 117
                 echo "          <ul class=\"action-links\">
             ";
-                // line 120
+                // line 118
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["action_links"]) ? $context["action_links"] : null), "html", null, true));
                 echo "
           </ul>
         ";
             }
-            // line 123
+            // line 121
             echo "
         ";
-            // line 124
+            // line 122
             if ((isset($context["secondary_local_tasks"]) ? $context["secondary_local_tasks"] : null)) {
-                // line 125
+                // line 123
                 echo "          <div class=\"tabs-secondary clearfix\" role=\"navigation\">";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["secondary_local_tasks"]) ? $context["secondary_local_tasks"] : null), "html", null, true));
                 echo "</div>
         ";
             }
+            // line 125
+            echo "
+        ";
             // line 127
-            echo "
-        ";
+            echo "        ";
+            // line 128
+            echo "        ";
             // line 129
-            echo "        ";
-            // line 130
-            echo "        ";
-            // line 131
             echo "
         ";
-            // line 132
+            // line 130
             echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_prefix"]) ? $context["title_prefix"] : null), "html", null, true));
             echo "
         ";
-            // line 133
+            // line 131
             if ((isset($context["title"]) ? $context["title"] : null)) {
-                // line 134
+                // line 132
                 echo "          <h1 class=\"page-title\">";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title"]) ? $context["title"] : null), "html", null, true));
                 echo "</h1>
         ";
             }
-            // line 136
+            // line 134
             echo "        ";
             echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_suffix"]) ? $context["title_suffix"] : null), "html", null, true));
             echo "
         ";
-            // line 137
+            // line 135
             if ((isset($context["primary_local_tasks"]) ? $context["primary_local_tasks"] : null)) {
-                // line 138
+                // line 136
                 echo "          ";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["primary_local_tasks"]) ? $context["primary_local_tasks"] : null), "html", null, true));
                 echo "
         ";
             }
-            // line 140
+            // line 138
             echo "
         ";
-            // line 141
+            // line 139
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content_top", array())) {
-                // line 142
+                // line 140
                 echo "          ";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content_top", array()), "html", null, true));
                 echo "
         ";
             }
-            // line 144
+            // line 142
             echo "
         ";
-            // line 145
+            // line 143
             echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array()), "html", null, true));
             echo "
 
         ";
-            // line 147
+            // line 145
             if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content_bottom", array())) {
-                // line 148
+                // line 146
                 echo "          ";
                 echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content_bottom", array()), "html", null, true));
                 echo "
         ";
             }
-            // line 150
+            // line 148
             echo "
       ";
         }
-        // line 152
+        // line 150
         echo "
     </div>
   </div>
@@ -340,16 +340,17 @@ class __TwigTemplate_6bd5f29dcb265d88f56459cc2547482bd2a6cd443cb9e634fb9fd32e6a4
 <footer class=\"footer-main\">
   <div class=\"contain\">
     ";
-        // line 158
+        // line 156
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "footer", array())) {
-            // line 159
+            // line 157
             echo "      ";
             echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "footer", array()), "html", null, true));
             echo "
     ";
         }
-        // line 161
-        echo "    <a class=\"twitter\" href=\"https://twitter.com/zetagraph\"><img class=\"twitter-icon inject-svg\" data-src=\"/themes/monoset/icons/twitter.svg\" alt=\"twitter\"></a>
+        // line 159
+        echo "    <a target=\"_blank\" class=\"facebook\" href=\"https://www.facebook.com/gidon.carmel\"><img class=\"facebook-icon inject-svg\" data-src=\"/themes/monoset/icons/facebook.svg\" alt=\"facebook\"></a>
+    <a target=\"_blank\" class=\"instagram\" href=\"https://www.instagram.com/gidi_the_drummer/\"><img class=\"instagram-icon inject-svg\" data-src=\"/themes/monoset/icons/instagram.svg\" alt=\"instagram\"></a>
     <a class=\"top-link\" href=\"#top\"><img class=\"arrow-up inject-svg\" data-src=\"/themes/monoset/icons/chevron-up.svg\" alt=\"chevron-up\"></a>
   </div>
 </footer>";
@@ -367,7 +368,7 @@ class __TwigTemplate_6bd5f29dcb265d88f56459cc2547482bd2a6cd443cb9e634fb9fd32e6a4
 
     public function getDebugInfo()
     {
-        return array (  352 => 161,  346 => 159,  344 => 158,  336 => 152,  332 => 150,  326 => 148,  324 => 147,  319 => 145,  316 => 144,  310 => 142,  308 => 141,  305 => 140,  299 => 138,  297 => 137,  292 => 136,  286 => 134,  284 => 133,  280 => 132,  277 => 131,  275 => 130,  273 => 129,  270 => 127,  264 => 125,  262 => 124,  259 => 123,  253 => 120,  250 => 119,  247 => 118,  241 => 115,  238 => 114,  236 => 113,  232 => 112,  225 => 107,  217 => 101,  211 => 99,  209 => 98,  202 => 93,  196 => 91,  194 => 90,  190 => 88,  184 => 86,  182 => 85,  175 => 80,  169 => 78,  167 => 77,  161 => 73,  155 => 71,  153 => 70,  147 => 66,  141 => 64,  139 => 63,  132 => 58,  126 => 56,  124 => 55,  117 => 50,  111 => 48,  109 => 47,  103 => 43,  101 => 42,  91 => 34,  85 => 32,  83 => 31,  76 => 26,  70 => 24,  68 => 23,  49 => 11,  43 => 7,);
+        return array (  352 => 159,  346 => 157,  344 => 156,  336 => 150,  332 => 148,  326 => 146,  324 => 145,  319 => 143,  316 => 142,  310 => 140,  308 => 139,  305 => 138,  299 => 136,  297 => 135,  292 => 134,  286 => 132,  284 => 131,  280 => 130,  277 => 129,  275 => 128,  273 => 127,  270 => 125,  264 => 123,  262 => 122,  259 => 121,  253 => 118,  250 => 117,  247 => 116,  241 => 113,  238 => 112,  236 => 111,  232 => 110,  225 => 105,  217 => 99,  211 => 97,  209 => 96,  203 => 92,  197 => 90,  195 => 89,  189 => 85,  183 => 83,  181 => 82,  174 => 77,  168 => 75,  166 => 74,  162 => 72,  156 => 70,  154 => 69,  149 => 66,  143 => 63,  140 => 62,  138 => 61,  135 => 60,  128 => 56,  124 => 54,  122 => 53,  117 => 50,  111 => 48,  109 => 47,  103 => 43,  101 => 42,  91 => 34,  85 => 32,  83 => 31,  76 => 26,  70 => 24,  68 => 23,  49 => 11,  43 => 7,);
     }
 }
 /* {#*/
@@ -422,35 +423,19 @@ class __TwigTemplate_6bd5f29dcb265d88f56459cc2547482bd2a6cd443cb9e634fb9fd32e6a4
 /*         </div>*/
 /*       </section>*/
 /* */
+/*       {% if page.front_two %}*/
 /*       <section id="features" class="front-section features">*/
 /*         <div class="contain">*/
-/*           {% if page.front_two %}*/
 /*             {{ page.front_two }}*/
-/*           {% endif %}*/
 /*         </div>*/
 /*       </section>*/
+/*       {% endif %}*/
 /* */
-/*       <section class="front-section icons">*/
-/*         <div class="contain">*/
-/*           {% if page.front_three %}*/
-/*             {{ page.front_three }}*/
-/*           {% endif %}*/
-/*         </div>*/
-/*       </section>*/
-/* */
+/*       {% if page.front_three %}*/
 /*       <section class="front-section posts">*/
-/*         {% if page.front_four %}*/
-/*           {{ page.front_four }}*/
-/*         {% endif %}*/
+/*             {{ page.front_three }}*/
 /*       </section>*/
-/* */
-/*       <section class="front-section news">*/
-/*         <div class="contain">*/
-/*           {% if page.front_five %}*/
-/*             {{ page.front_five }}*/
-/*           {% endif %}*/
-/*         </div>*/
-/*       </section>*/
+/*       {% endif %}*/
 /* */
 /*       <section class="front-section featured">*/
 /*         <div class="featured-box">*/
@@ -463,6 +448,20 @@ class __TwigTemplate_6bd5f29dcb265d88f56459cc2547482bd2a6cd443cb9e634fb9fd32e6a4
 /*             {{ page.front_seven }}*/
 /*           {% endif %}*/
 /*         </div>*/
+/*       </section>*/
+/* */
+/*       <section class="front-section news">*/
+/*         <div class="contain">*/
+/*           {% if page.front_four %}*/
+/*             {{ page.front_four }}*/
+/*           {% endif %}*/
+/*         </div>*/
+/*       </section>*/
+/* */
+/*       <section class="front-section posts">*/
+/*         {% if page.front_five %}*/
+/*           {{ page.front_five }}*/
+/*         {% endif %}*/
 /*       </section>*/
 /* */
 /*       <section class="front-section source">*/
@@ -530,7 +529,8 @@ class __TwigTemplate_6bd5f29dcb265d88f56459cc2547482bd2a6cd443cb9e634fb9fd32e6a4
 /*     {% if page.footer %}*/
 /*       {{ page.footer }}*/
 /*     {% endif %}*/
-/*     <a class="twitter" href="https://twitter.com/zetagraph"><img class="twitter-icon inject-svg" data-src="/themes/monoset/icons/twitter.svg" alt="twitter"></a>*/
+/*     <a target="_blank" class="facebook" href="https://www.facebook.com/gidon.carmel"><img class="facebook-icon inject-svg" data-src="/themes/monoset/icons/facebook.svg" alt="facebook"></a>*/
+/*     <a target="_blank" class="instagram" href="https://www.instagram.com/gidi_the_drummer/"><img class="instagram-icon inject-svg" data-src="/themes/monoset/icons/instagram.svg" alt="instagram"></a>*/
 /*     <a class="top-link" href="#top"><img class="arrow-up inject-svg" data-src="/themes/monoset/icons/chevron-up.svg" alt="chevron-up"></a>*/
 /*   </div>*/
 /* </footer>*/

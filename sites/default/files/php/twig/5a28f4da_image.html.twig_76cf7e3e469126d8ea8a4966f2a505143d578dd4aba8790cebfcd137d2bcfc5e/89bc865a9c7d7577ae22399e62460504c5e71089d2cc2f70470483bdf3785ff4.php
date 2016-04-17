@@ -1,7 +1,7 @@
 <?php
 
-/* {# inline_template_start #}<div class="block-filter-text-source">{{ label }}</div> */
-class __TwigTemplate_dc071b48c9599e8f738d091a25fcb216f054a4c232faea5afab70ae80b9f1590 extends Twig_Template
+/* core/themes/stable/templates/field/image.html.twig */
+class __TwigTemplate_da8176d404351f71ccb51365d70c5cfa53b1e3c2cfb9f17f4817b77ad77bfad5 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -39,15 +39,16 @@ class __TwigTemplate_dc071b48c9599e8f738d091a25fcb216f054a4c232faea5afab70ae80b9
             throw $e;
         }
 
-        // line 1
-        echo "<div class=\"block-filter-text-source\">";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["label"]) ? $context["label"] : null), "html", null, true));
-        echo "</div>";
+        // line 13
+        echo "<img";
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["attributes"]) ? $context["attributes"] : null), "html", null, true));
+        echo " />
+";
     }
 
     public function getTemplateName()
     {
-        return "{# inline_template_start #}<div class=\"block-filter-text-source\">{{ label }}</div>";
+        return "core/themes/stable/templates/field/image.html.twig";
     }
 
     public function isTraitable()
@@ -57,7 +58,20 @@ class __TwigTemplate_dc071b48c9599e8f738d091a25fcb216f054a4c232faea5afab70ae80b9
 
     public function getDebugInfo()
     {
-        return array (  43 => 1,);
+        return array (  43 => 13,);
     }
 }
-/* {# inline_template_start #}<div class="block-filter-text-source">{{ label }}</div>*/
+/* {#*/
+/* /***/
+/*  * @file*/
+/*  * Theme override of an image.*/
+/*  **/
+/*  * Available variables:*/
+/*  * - attributes: HTML attributes for the img tag.*/
+/*  * - style_name: (optional) The name of the image style applied.*/
+/*  **/
+/*  * @see template_preprocess_image()*/
+/*  *//* */
+/* #}*/
+/* <img{{ attributes }} />*/
+/* */

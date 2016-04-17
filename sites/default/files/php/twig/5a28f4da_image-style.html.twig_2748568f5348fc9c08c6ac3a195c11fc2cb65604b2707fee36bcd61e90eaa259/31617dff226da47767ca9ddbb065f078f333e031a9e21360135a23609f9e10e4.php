@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/classy/templates/form/confirm-form.html.twig */
-class __TwigTemplate_de5cbbb53f10b43a4c35fbf4797ae3801385f27d4c54570bf43b99ee652db17b extends Twig_Template
+/* core/themes/stable/templates/field/image-style.html.twig */
+class __TwigTemplate_18fcb2e4643ef0fbe5ce86c4a64c117150a5a045bbaabcf9d3aaf7de71b4e4c6 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -39,15 +39,15 @@ class __TwigTemplate_de5cbbb53f10b43a4c35fbf4797ae3801385f27d4c54570bf43b99ee652
             throw $e;
         }
 
-        // line 13
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["form"]) ? $context["form"] : null), "html", null, true));
+        // line 18
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["image"]) ? $context["image"] : null), "html", null, true));
         echo "
 ";
     }
 
     public function getTemplateName()
     {
-        return "core/themes/classy/templates/form/confirm-form.html.twig";
+        return "core/themes/stable/templates/field/image-style.html.twig";
     }
 
     public function isTraitable()
@@ -57,20 +57,25 @@ class __TwigTemplate_de5cbbb53f10b43a4c35fbf4797ae3801385f27d4c54570bf43b99ee652
 
     public function getDebugInfo()
     {
-        return array (  43 => 13,);
+        return array (  43 => 18,);
     }
 }
 /* {#*/
 /* /***/
 /*  * @file*/
-/*  * Theme override for confirm form.*/
-/*  **/
-/*  * By default this does not alter the appearance of a form at all,*/
-/*  * but is provided as a convenience for themers.*/
+/*  * Theme override for an image using a specific image style.*/
 /*  **/
 /*  * Available variables:*/
-/*  * - form: The confirm form.*/
+/*  * - attributes: HTML attributes for the image, including the following:*/
+/*  *   - src: Full URL or relative path to the image file.*/
+/*  *   - class: One or more classes to be applied to the image.*/
+/*  *   - width: The width of the image (if known).*/
+/*  *   - height: The height of the image (if known).*/
+/*  *   - title: The title of the image.*/
+/*  *   - alt: The alternative text for the image.*/
+/*  **/
+/*  * @see template_preprocess_image_style()*/
 /*  *//* */
 /* #}*/
-/* {{ form }}*/
+/* {{ image }}*/
 /* */
